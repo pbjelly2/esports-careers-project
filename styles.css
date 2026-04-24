@@ -152,11 +152,18 @@ h3 {
 }
 
 .subtitle,
+.hero-support,
 .text-block p,
 .sources-card p {
   font-size: clamp(1rem, 1.5vw, 1.18rem);
   line-height: 1.75;
   color: var(--text);
+}
+
+.hero-support {
+  max-width: 38rem;
+  margin: -0.5rem auto 1.8rem;
+  color: var(--muted);
 }
 
 .sources-card a {
@@ -327,6 +334,11 @@ h3 {
 .bar-label {
   color: var(--text);
   font-weight: 600;
+}
+
+.bar-value {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .bar-track {
